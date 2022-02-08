@@ -17,5 +17,10 @@ path = "src/02_guessing_game/main.rs"
 name = "variables"
 path = "src/03_common_programming_concepts/variables.rs"
 
+
+[[bin]]
+name = "data_type"
+path = "src/03_common_programming_concepts/data_type.rs"
+
 [dependencies]
 rand = "0.8.4"
