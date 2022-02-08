@@ -7,19 +7,15 @@ edition = "2021"
 
 [[bin]]
 name = "hello_world"
-path = "src/hello_world/hello.rs"
+path = "src/01_hello_world/hello.rs"
 
 [[bin]]
 name = "guessing_game"
-path = "src/guessing_game/main.rs"
+path = "src/02_guessing_game/main.rs"
 
 [[bin]]
 name = "variables"
-path = "src/variables/main.rs"
-
-[[bin]]
-name = "data_type"
-path = "src/data_type/main.rs"
+path = "src/03_common_programming_concepts/variables.rs"
 
 [dependencies]
 rand = "0.8.4"
