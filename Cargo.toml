@@ -7,7 +7,7 @@ edition = "2021"
 
 [[bin]]
 name = "hello_world"
-path = "src/01_hello_world/hello.rs"
+path = "src/01_hello_world/main.rs"
 
 [[bin]]
 name = "guessing_game"
@@ -17,10 +17,20 @@ path = "src/02_guessing_game/main.rs"
 name = "variables"
 path = "src/03_common_programming_concepts/variables.rs"
 
-
 [[bin]]
 name = "data_type"
 path = "src/03_common_programming_concepts/data_type.rs"
 
+[[bin]]
+name = "function"
+path = "src/03_common_programming_concepts/function.rs"
+
+[[bin]]
+name = "control_flow"
+path = "src/03_common_programming_concepts/control_flow.rs"
+
+[[bin]]
+name = "what_is_ownership"
+path = "src/04_ownership/what_is_ownership.rs"
 [dependencies]
 rand = "0.8.4"
