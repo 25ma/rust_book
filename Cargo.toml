@@ -32,5 +32,35 @@ path = "src/03_common_programming_concepts/control_flow.rs"
 [[bin]]
 name = "what_is_ownership"
 path = "src/04_ownership/what_is_ownership.rs"
+
+[[bin]]
+name = "slice"
+path = "src/04_ownership/slice.rs"
+
+[[bin]]
+name = "defining_structs"
+path = "src/05_structs/defining_structs.rs"
+
+[[bin]]
+name = "example_structs"
+path = "src/05_structs/example_structs.rs"
+
+
+[[bin]]
+name = "method_syntax"
+path = "src/05_structs/method_syntax.rs"
+
+[[bin]]
+name = "defining_enum"
+path = "src/06_enums/defining_enum.rs"
+
+[[bin]]
+name = "match"
+path = "src/06_enums/match.rs"
+
+[[bin]]
+name = "if_let"
+path = "src/06_enums/if_let.rs"
+
 [dependencies]
 rand = "0.8.4"
