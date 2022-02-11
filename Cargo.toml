@@ -66,5 +66,13 @@ path = "src/06_enums/if_let.rs"
 name = "hash_maps"
 path = "src/08_common_collections/hash_maps.rs"
 
+[[bin]]
+name = "unrecoverable_errors_with_panic"
+path = "src/09_error_handling/unrecoverable_errors_with_panic.rs"
+
+[[bin]]
+name = "unrecoverable_errors_with_result"
+path = "src/09_error_handling/unrecoverable_errors_with_result.rs"
+
 [dependencies]
 rand = "0.8.4"
