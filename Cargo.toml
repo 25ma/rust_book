@@ -62,5 +62,9 @@ path = "src/06_enums/match.rs"
 name = "if_let"
 path = "src/06_enums/if_let.rs"
 
+[[bin]]
+name = "hash_maps"
+path = "src/08_common_collections/hash_maps.rs"
+
 [dependencies]
 rand = "0.8.4"
